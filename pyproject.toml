@@ -33,7 +33,7 @@ dev = [
   "black>=23.0.0",
   "isort>=5.0.0",
   "mypy>=1.9",
-  "types-numpy",
+  "types-numpy; python_version >= '3.11'"
   "cloudpickle>=2.0.0"
 ]
 mp = [
