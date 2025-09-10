@@ -72,8 +72,9 @@ if __name__ == '__main__': ###IMPORTANT USE THIS GUARD FOR MULTIPROCESSING
 
     hof = mga.optimize(hall_of_fame_size=3)  # DEAP HallOfFame
     best = hof[0]
-    print("Best fitness:", best.fitness.values[0]) #Best fitness: 408.0
-    print("Best permutation:", list(best)) #Best permutation: [9, 46, 11, 32, 41,...
+    print("Best fitness:", best.fitness.values[0]) #Best fitness: 419.0
+    print("Best permutation:", list(best)) #Best permutation: [0, 40, 5, 49, 24,...
+    #Time: 01:07
 ```
 
 
